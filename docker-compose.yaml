@@ -1,0 +1,14 @@
+services:
+  openjdk:
+    image: mcserver:latest
+    container_name: mcserver
+    environment:
+      - Xmx=4G
+      - Xms=1G
+      - SERVER_NAME=server.jar
+      - USE_OWN_SERVER=false
+    ports:
+      - 25565:25565
+      - 25575:25575
+    volumes:
+      - ./app:/app
