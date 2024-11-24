@@ -1,5 +1,5 @@
 services:
-  openjdk:
+  mcserver:
     image: mcserver:latest
     container_name: mcserver
     environment:
