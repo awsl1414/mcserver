@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17-jre-alpine
+FROM azul/zulu-openjdk-debian:21-jre-latest
 
 WORKDIR /app
 

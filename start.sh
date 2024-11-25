@@ -8,4 +8,4 @@ else
 fi
 
 echo "Starting the Java application with Xms=${Xms} and Xmx=${Xmx}..."
-exec java -Xms${Xms} -Xmx${Xmx} -jar /app/${SERVER_NAME}
+exec java -Xms${Xms} -Xmx${Xmx} -jar /app/${SERVER_NAME} nogui
