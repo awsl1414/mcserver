@@ -7,7 +7,8 @@ COPY start.sh /server/
 
 ENV Xmx=8G \
     Xms=512M \
-    SERVER_NAME=server.jar
+    SERVER_NAME=server.jar \
+    USE_OWN_SERVER=false
 
 RUN chmod +x /server/start.sh
 
